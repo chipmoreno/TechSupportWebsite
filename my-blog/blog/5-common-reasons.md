@@ -1,8 +1,13 @@
 ---
-layout: "layout.html"
 title: "5 Common Reasons Your Computer is Running So Slowly"
-description: "A guide for expats in Cuenca on how to diagnose and fix a slow computer. Learn about common issues like insufficient RAM, malware, and old hard drives."
-keywords: "tech support cuenca, computer repair cuenca, slow computer, malware removal, computer fix, expat services cuenca"
+layout: "layout.html"
+date: 2024-01-15
+tags:
+  - blog
+image: "/images/computer-slow.png"
+alt: "A person looking frustrated at a slow computer."
+description: "Learn about the common software and hardware issues that can drag down your computer's performance...."
+permalink: "/blog/5-common-reasons.html"
 ---
 
 In today’s world, a computer is more than just a piece of technology; it's a lifeline. For many expats in Cuenca, it’s the primary way to stay in touch with family, manage finances, work remotely, and access news from home. So, when your computer starts to grind to a halt—when programs take an eternity to open, videos stutter, and every click seems to be met with a frozen screen—it’s not just an inconvenience. It’s a major source of frustration that can disrupt your entire day.

@@ -5,7 +5,11 @@ description: "A comprehensive guide for expats in Cuenca on how to identify and 
 keywords: "online scams, phishing, tech support cuenca, cyber security, online safety, expat safety, fake websites, whatsapp scams"
 image: "images/online-scam.png"
 imageAlt: "Picture of an online scam."
-date: "2025-01-15"
+permalink: "/blog/scam-guide.html"
+
+date: 2024-01-15
+tags:
+  - blog
 ---
 
 In today's interconnected world, living abroad in a beautiful city like Cuenca comes with a unique set of challenges. While you’re busy enjoying the stunning colonial architecture and vibrant culture, a constant and growing threat lurks in the digital world: online scams. From a seemingly innocent email to a convincing-looking website, scammers are becoming more sophisticated, and expats can be particularly vulnerable. Navigating unfamiliar systems and managing your life from a distance can make it harder to spot a fake from a real one.

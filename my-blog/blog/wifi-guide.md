@@ -1,11 +1,13 @@
 ---
-layout: "layout.html"
 title: "Choosing the Best Wi-Fi Router for Your Home Network"
-description: "A comprehensive guide for expats in Cuenca on how to choose and set up the best Wi-Fi router for a strong, reliable home internet connection, covering speed, range, security, and features."
+layout: "layout.html"
+date: 2024-01-20
+tags:
+  - blog
 image: "/images/wifi-router.png"
-imageAlt: "A modern Wi-Fi router."
-date: "2025-01-15"
-keywords: "best wifi router cuenca, home network setup, internet speed cuenca, wi-fi security, mesh wifi, router upgrade cuenca, expat tech support"
+alt: "A modern Wi-Fi router."
+description: "From speed to security, here's how to choose and set up a router for a strong, reliable connection...."
+permalink: "/blog/wifi-guide.html"
 ---
 
 In Cuenca, a city celebrated for its stunning architecture and vibrant expat community, a reliable internet connection is no longer a luxury—it's a necessity. Whether you're video calling family back home, working remotely, streaming your favorite shows, or simply browsing the local news, a strong and stable Wi-Fi network is the backbone of your digital life. Yet, many homes, especially older apartments with thick walls, struggle with dead zones, slow speeds, and constant disconnections.
