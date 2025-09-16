@@ -1,0 +1,28 @@
+---
+layout: "layout.html"
+title: "Tech Support Cuenca Blog"
+description: "A collection of helpful tech tips and guides for expats in Cuenca, Ecuador."
+---
+
+<main class="py-12 md:py-20">
+    <div class="container mx-auto px-6 max-w-4xl">
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">Helpful Tips from a Tech Expert</h1>
+            <p class="text-gray-600 text-lg italic max-w-2xl mx-auto">A complete archive of our advice and insights for your digital life in Cuenca.</p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+            {%- for post in collections.posts | reverse -%}
+            <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group">
+                <img src="{{ post.data.image }}" class="w-full h-48 object-cover group-hover:opacity-80 transition-opacity" alt="{{ post.data.imageAlt }}">
+                <div class="p-6">
+                    <h2 class="text-xl font-bold mb-2">{{ post.data.title }}</h2>
+                    <p class="text-gray-600 mb-4">{{ post.data.description }}</p>
+                    <a href="{{ post.url }}" class="font-bold text-blue-600 hover:underline">Read More &rarr;</a>
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+
+    </div>
+</main>
