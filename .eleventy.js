@@ -1,6 +1,6 @@
 module.exports = function(eleventyConfig) {
   // Pass through the images and other assets
-  eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy({ "my-blog/images": "images" });
 
   // A common pattern is to make Eleventy's collections available to Nunjucks.
   // This is often done implicitly, but it's good practice to be aware of.

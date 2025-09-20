@@ -1,0 +1,28 @@
+---
+title: All Blog Posts
+layout: "base.njk"
+permalink: /blog/index.html
+---
+
+<main>
+    <section class="py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-4">Guides and Insights for Ecuadorian Real Estate</h1>
+            <p class="text-gray-600 mb-12 max-w-2xl mx-auto">A full list of articles and expert advice to help you confidently buy property in Ecuador.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-left">
+                {% set posts = collections.blog | reverse %}
+                {% for post in posts %}
+                <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden group">
+                    <img src="{{ post.data.image }}" class="w-full h-48 object-cover group-hover:opacity-80 transition-opacity" alt="{{ post.data.alt }}">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">{{ post.data.title }}</h3>
+                        <p class="text-gray-600 mb-4">{{ post.data.description }}</p>
+                        <a href="{{ post.url }}" class="font-bold text-blue-600 hover:underline">Read More &rarr;</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+</main>
