@@ -18,6 +18,6 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: "my-blog",
       includes: "_includes",
-    }
+      data: "_data"    }
   };
 };
